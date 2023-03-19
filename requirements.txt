@@ -11,6 +11,3 @@ seaborn==0.11.2
 streamlit==1.20.0
 uvicorn==0.21.1
 imbalanced-learn==0.7.0
-LogisticRegression==0.24.2
-NearestNeighbors==0.24.2
-GridSearchCV==0.24.2
