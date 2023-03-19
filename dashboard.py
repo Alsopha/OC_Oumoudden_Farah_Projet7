@@ -12,12 +12,11 @@ import lime.lime_tabular
 from zipfile import ZipFile
 import seaborn as sns
 from sklearn.neighbors import DistanceMetric
-from sklearn.neighbors import _dist_metrics
 
 
 
 import plotly.express as px
-from sklearn.neighbors import _dist_metrics
+
 import sklearn.neighbors._base
 sys.modules['sklearn.neighbors.base'] = sklearn.neighbors._base
 
