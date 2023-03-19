@@ -1,0 +1,197 @@
+,Row,Description
+0,SK_ID_CURR,ID of loan in our sample
+1,TARGET,"Target variable (1 - client with payment difficulties: he/she had late payment more than X days on at least one of the first Y installments of the loan in our sample, 0 - all other cases)"
+2,NAME_CONTRACT_TYPE,Identification if loan is cash or revolving
+3,CODE_GENDER,Gender of the client
+4,FLAG_OWN_CAR,Flag if the client owns a car
+5,FLAG_OWN_REALTY,Flag if client owns a house or flat
+6,CNT_CHILDREN,Number of children the client has
+7,AMT_INCOME_TOTAL,Income of the client
+8,AMT_CREDIT,Credit amount of the loan
+9,AMT_ANNUITY,Loan annuity
+10,AMT_GOODS_PRICE,For consumer loans it is the price of the goods for which the loan is given
+11,NAME_TYPE_SUITE,Who was accompanying client when he was applying for the loan
+12,NAME_INCOME_TYPE,"Clients income type (businessman, working, maternity leave,)"
+13,NAME_EDUCATION_TYPE,Level of highest education the client achieved
+14,NAME_FAMILY_STATUS,Family status of the client
+15,NAME_HOUSING_TYPE,"What is the housing situation of the client (renting, living with parents, ...)"
+16,REGION_POPULATION_RELATIVE,Normalized population of region where client lives (higher number means the client lives in more populated region)
+17,DAYS_BIRTH,Client's age in days at the time of application
+18,DAYS_EMPLOYED,How many days before the application the person started current employment
+19,DAYS_REGISTRATION,How many days before the application did client change his registration
+20,DAYS_ID_PUBLISH,How many days before the application did client change the identity document with which he applied for the loan
+21,OWN_CAR_AGE,Age of client's car
+22,FLAG_MOBIL,"Did client provide mobile phone (1=YES, 0=NO)"
+23,FLAG_EMP_PHONE,"Did client provide work phone (1=YES, 0=NO)"
+24,FLAG_WORK_PHONE,"Did client provide home phone (1=YES, 0=NO)"
+25,FLAG_CONT_MOBILE,"Was mobile phone reachable (1=YES, 0=NO)"
+26,FLAG_PHONE,"Did client provide home phone (1=YES, 0=NO)"
+27,FLAG_EMAIL,"Did client provide email (1=YES, 0=NO)"
+28,OCCUPATION_TYPE,What kind of occupation does the client have
+29,CNT_FAM_MEMBERS,How many family members does client have
+30,REGION_RATING_CLIENT,"Our rating of the region where client lives (1,2,3)"
+31,REGION_RATING_CLIENT_W_CITY,"Our rating of the region where client lives with taking city into account (1,2,3)"
+32,WEEKDAY_APPR_PROCESS_START,On which day of the week did the client apply for the loan
+33,HOUR_APPR_PROCESS_START,Approximately at what hour did the client apply for the loan
+34,REG_REGION_NOT_LIVE_REGION,"Flag if client's permanent address does not match contact address (1=different, 0=same, at region level)"
+35,REG_REGION_NOT_WORK_REGION,"Flag if client's permanent address does not match work address (1=different, 0=same, at region level)"
+36,LIVE_REGION_NOT_WORK_REGION,"Flag if client's contact address does not match work address (1=different, 0=same, at region level)"
+37,REG_CITY_NOT_LIVE_CITY,"Flag if client's permanent address does not match contact address (1=different, 0=same, at city level)"
+38,REG_CITY_NOT_WORK_CITY,"Flag if client's permanent address does not match work address (1=different, 0=same, at city level)"
+39,LIVE_CITY_NOT_WORK_CITY,"Flag if client's contact address does not match work address (1=different, 0=same, at city level)"
+40,ORGANIZATION_TYPE,Type of organization where client works
+41,EXT_SOURCE_1,Normalized score from external data source
+42,EXT_SOURCE_2,Normalized score from external data source
+43,EXT_SOURCE_3,Normalized score from external data source
+44,APARTMENTS_AVG,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor"
+45,BASEMENTAREA_AVG,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor"
+46,YEARS_BEGINEXPLUATATION_AVG,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor"
+47,YEARS_BUILD_AVG,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor"
+48,COMMONAREA_AVG,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor"
+49,ELEVATORS_AVG,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor"
+50,ENTRANCES_AVG,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor"
+51,FLOORSMAX_AVG,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor"
+52,FLOORSMIN_AVG,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor"
+53,LANDAREA_AVG,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor"
+54,LIVINGAPARTMENTS_AVG,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor"
+55,LIVINGAREA_AVG,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor"
+56,NONLIVINGAPARTMENTS_AVG,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor"
+57,NONLIVINGAREA_AVG,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor"
+58,APARTMENTS_MODE,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor"
+59,BASEMENTAREA_MODE,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor"
+60,YEARS_BEGINEXPLUATATION_MODE,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor"
+61,YEARS_BUILD_MODE,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor"
+62,COMMONAREA_MODE,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor"
+63,ELEVATORS_MODE,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor"
+64,ENTRANCES_MODE,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor"
+65,FLOORSMAX_MODE,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor"
+66,FLOORSMIN_MODE,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor"
+67,LANDAREA_MODE,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor"
+68,LIVINGAPARTMENTS_MODE,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor"
+69,LIVINGAREA_MODE,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor"
+70,NONLIVINGAPARTMENTS_MODE,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor"
+71,NONLIVINGAREA_MODE,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor"
+72,APARTMENTS_MEDI,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor"
+73,BASEMENTAREA_MEDI,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor"
+74,YEARS_BEGINEXPLUATATION_MEDI,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor"
+75,YEARS_BUILD_MEDI,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor"
+76,COMMONAREA_MEDI,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor"
+77,ELEVATORS_MEDI,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor"
+78,ENTRANCES_MEDI,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor"
+79,FLOORSMAX_MEDI,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor"
+80,FLOORSMIN_MEDI,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor"
+81,LANDAREA_MEDI,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor"
+82,LIVINGAPARTMENTS_MEDI,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor"
+83,LIVINGAREA_MEDI,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor"
+84,NONLIVINGAPARTMENTS_MEDI,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor"
+85,NONLIVINGAREA_MEDI,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor"
+86,FONDKAPREMONT_MODE,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor"
+87,HOUSETYPE_MODE,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor"
+88,TOTALAREA_MODE,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor"
+89,WALLSMATERIAL_MODE,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor"
+90,EMERGENCYSTATE_MODE,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor"
+91,OBS_30_CNT_SOCIAL_CIRCLE,How many observation of client's social surroundings with observable 30 DPD (days past due) default
+92,DEF_30_CNT_SOCIAL_CIRCLE,How many observation of client's social surroundings defaulted on 30 DPD (days past due) 
+93,OBS_60_CNT_SOCIAL_CIRCLE,How many observation of client's social surroundings with observable 60 DPD (days past due) default
+94,DEF_60_CNT_SOCIAL_CIRCLE,How many observation of client's social surroundings defaulted on 60 (days past due) DPD
+95,DAYS_LAST_PHONE_CHANGE,How many days before application did client change phone
+96,FLAG_DOCUMENT_2,Did client provide document 2
+97,FLAG_DOCUMENT_3,Did client provide document 3
+98,FLAG_DOCUMENT_4,Did client provide document 4
+99,FLAG_DOCUMENT_5,Did client provide document 5
+100,FLAG_DOCUMENT_6,Did client provide document 6
+101,FLAG_DOCUMENT_7,Did client provide document 7
+102,FLAG_DOCUMENT_8,Did client provide document 8
+103,FLAG_DOCUMENT_9,Did client provide document 9
+104,FLAG_DOCUMENT_10,Did client provide document 10
+105,FLAG_DOCUMENT_11,Did client provide document 11
+106,FLAG_DOCUMENT_12,Did client provide document 12
+107,FLAG_DOCUMENT_13,Did client provide document 13
+108,FLAG_DOCUMENT_14,Did client provide document 14
+109,FLAG_DOCUMENT_15,Did client provide document 15
+110,FLAG_DOCUMENT_16,Did client provide document 16
+111,FLAG_DOCUMENT_17,Did client provide document 17
+112,FLAG_DOCUMENT_18,Did client provide document 18
+113,FLAG_DOCUMENT_19,Did client provide document 19
+114,FLAG_DOCUMENT_20,Did client provide document 20
+115,FLAG_DOCUMENT_21,Did client provide document 21
+116,AMT_REQ_CREDIT_BUREAU_HOUR,Number of enquiries to Credit Bureau about the client one hour before application
+117,AMT_REQ_CREDIT_BUREAU_DAY,Number of enquiries to Credit Bureau about the client one day before application (excluding one hour before application)
+118,AMT_REQ_CREDIT_BUREAU_WEEK,Number of enquiries to Credit Bureau about the client one week before application (excluding one day before application)
+119,AMT_REQ_CREDIT_BUREAU_MON,Number of enquiries to Credit Bureau about the client one month before application (excluding one week before application)
+120,AMT_REQ_CREDIT_BUREAU_QRT,Number of enquiries to Credit Bureau about the client 3 month before application (excluding one month before application)
+121,AMT_REQ_CREDIT_BUREAU_YEAR,Number of enquiries to Credit Bureau about the client one day year (excluding last 3 months before application)
+123,SK_BUREAU_ID,Recoded ID of previous Credit Bureau credit related to our loan (unique coding for each loan application)
+124,CREDIT_ACTIVE,Status of the Credit Bureau (CB) reported credits
+125,CREDIT_CURRENCY,Recoded currency of the Credit Bureau credit
+126,DAYS_CREDIT,How many days before current application did client apply for Credit Bureau credit
+127,CREDIT_DAY_OVERDUE,Number of days past due on CB credit at the time of application for related loan in our sample
+128,DAYS_CREDIT_ENDDATE,Remaining duration of CB credit (in days) at the time of application in Home Credit
+129,DAYS_ENDDATE_FACT,Days since CB credit ended at the time of application in Home Credit (only for closed credit)
+130,AMT_CREDIT_MAX_OVERDUE,Maximal amount overdue on the Credit Bureau credit so far (at application date of loan in our sample)
+131,CNT_CREDIT_PROLONG,How many times was the Credit Bureau credit prolonged
+132,AMT_CREDIT_SUM,Current credit amount for the Credit Bureau credit
+133,AMT_CREDIT_SUM_DEBT,Current debt on Credit Bureau credit
+134,AMT_CREDIT_SUM_LIMIT,Current credit limit of credit card reported in Credit Bureau
+135,AMT_CREDIT_SUM_OVERDUE,Current amount overdue on Credit Bureau credit
+136,CREDIT_TYPE,"Type of Credit Bureau credit (Car, cash,...)"
+137,DAYS_CREDIT_UPDATE,How many days before loan application did last information about the Credit Bureau credit come
+140,MONTHS_BALANCE,Month of balance relative to application date (-1 means the freshest balance date)
+141,STATUS,"Status of Credit Bureau loan during the month (active, closed, DPD0-30, [C means closed, X means status unknown, 0 means no DPD, 1 means maximal did during month between 1-30, 2 means DPD 31-60, 5 means DPD 120+ or sold or written off ] )"
+142,SK_ID_PREV ,"ID of previous credit in Home Credit related to loan in our sample. (One loan in our sample can have 0,1,2 or more previous loans in Home Credit)"
+145,CNT_INSTALMENT,Term of previous credit (can change over time)
+146,CNT_INSTALMENT_FUTURE,Installments left to pay on the previous credit
+147,NAME_CONTRACT_STATUS,Contract status during the month
+148,SK_DPD,DPD (days past due) during the month of previous credit
+149,SK_DPD_DEF,DPD during the month with tolerance (debts with low loan amounts are ignored) of the previous credit
+153,AMT_BALANCE,Balance during the month of previous credit
+154,AMT_CREDIT_LIMIT_ACTUAL,Credit card limit during the month of the previous credit
+155,AMT_DRAWINGS_ATM_CURRENT,Amount drawing at ATM during the month of the previous credit
+156,AMT_DRAWINGS_CURRENT,Amount drawing during the month of the previous credit
+157,AMT_DRAWINGS_OTHER_CURRENT,Amount of other drawings during the month of the previous credit
+158,AMT_DRAWINGS_POS_CURRENT,Amount drawing or buying goods during the month of the previous credit
+159,AMT_INST_MIN_REGULARITY,Minimal installment for this month of the previous credit
+160,AMT_PAYMENT_CURRENT,How much did the client pay during the month on the previous credit
+161,AMT_PAYMENT_TOTAL_CURRENT,How much did the client pay during the month in total on the previous credit
+162,AMT_RECEIVABLE_PRINCIPAL,Amount receivable for principal on the previous credit
+163,AMT_RECIVABLE,Amount receivable on the previous credit
+164,AMT_TOTAL_RECEIVABLE,Total amount receivable on the previous credit
+165,CNT_DRAWINGS_ATM_CURRENT,Number of drawings at ATM during this month on the previous credit
+166,CNT_DRAWINGS_CURRENT,Number of drawings during this month on the previous credit
+167,CNT_DRAWINGS_OTHER_CURRENT,Number of other drawings during this month on the previous credit
+168,CNT_DRAWINGS_POS_CURRENT,Number of drawings for goods during this month on the previous credit
+169,CNT_INSTALMENT_MATURE_CUM,Number of paid installments on the previous credit
+177,AMT_APPLICATION,For how much credit did client ask on the previous application
+179,AMT_DOWN_PAYMENT,Down payment on the previous application
+183,FLAG_LAST_APPL_PER_CONTRACT,Flag if it was last application for the previous contract. Sometimes by mistake of client or our clerk there could be more applications for one single contract
+184,NFLAG_LAST_APPL_IN_DAY,Flag if the application was the last application per day of the client. Sometimes clients apply for more applications a day. Rarely it could also be error in our system that one application is in the database twice
+185,NFLAG_MICRO_CASH,Flag Micro finance loan
+186,RATE_DOWN_PAYMENT,Down payment rate normalized on previous credit
+187,RATE_INTEREST_PRIMARY,Interest rate normalized on previous credit
+188,RATE_INTEREST_PRIVILEGED,Interest rate normalized on previous credit
+189,NAME_CASH_LOAN_PURPOSE,Purpose of the cash loan
+191,DAYS_DECISION,Relative to current application when was the decision about previous application made
+192,NAME_PAYMENT_TYPE,Payment method that client chose to pay for the previous application
+193,CODE_REJECT_REASON,Why was the previous application rejected
+195,NAME_CLIENT_TYPE,Was the client old or new client when applying for the previous application
+196,NAME_GOODS_CATEGORY,What kind of goods did the client apply for in the previous application
+197,NAME_PORTFOLIO,"Was the previous application for CASH, POS, CAR, "
+198,NAME_PRODUCT_TYPE,Was the previous application x-sell o walk-in
+199,CHANNEL_TYPE,Through which channel we acquired the client on the previous application
+200,SELLERPLACE_AREA,Selling area of seller place of the previous application
+201,NAME_SELLER_INDUSTRY,The industry of the seller
+202,CNT_PAYMENT,Term of previous credit at application of the previous application
+203,NAME_YIELD_GROUP,Grouped interest rate into small medium and high of the previous application
+204,PRODUCT_COMBINATION,Detailed product combination of the previous application
+205,DAYS_FIRST_DRAWING,Relative to application date of current application when was the first disbursement of the previous application
+206,DAYS_FIRST_DUE,Relative to application date of current application when was the first due supposed to be of the previous application
+207,DAYS_LAST_DUE_1ST_VERSION,Relative to application date of current application when was the first due of the previous application
+208,DAYS_LAST_DUE,Relative to application date of current application when was the last due date of the previous application
+209,DAYS_TERMINATION,Relative to application date of current application when was the expected termination of the previous application
+210,NFLAG_INSURED_ON_APPROVAL,Did the client requested insurance during the previous application
+213,NUM_INSTALMENT_VERSION,Version of installment calendar (0 is for credit card) of previous credit. Change of installment version from month to month signifies that some parameter of payment calendar has changed
+214,NUM_INSTALMENT_NUMBER,On which installment we observe payment
+215,DAYS_INSTALMENT,When the installment of previous credit was supposed to be paid (relative to application date of current loan)
+216,DAYS_ENTRY_PAYMENT,When was the installments of previous credit paid actually (relative to application date of current loan)
+217,AMT_INSTALMENT,What was the prescribed installment amount of previous credit on this installment
+218,AMT_PAYMENT,What the client actually paid on previous credit on this installment
