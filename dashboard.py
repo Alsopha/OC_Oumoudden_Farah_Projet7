@@ -12,6 +12,7 @@ import lime.lime_tabular
 from zipfile import ZipFile
 import seaborn as sns
 from sklearn.neighbors import DistanceMetric
+from sklearn.neighbors._dist_metrics import EuclideanDistance
 
 
 
